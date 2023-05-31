@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en" class="background-image">
+</html>
+<head>
+	<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8" />
+	<title>Never Gonna Give You Too Much Info</title>
+	<link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+	<div id="big_wrapper">
+		<header id="the_header">
+			<h2> <img src="../images/Rick Astley.jpg" alt="" width="40" height="40"> Never Gonna Give You Too Much Info</h2>
+		</header>
+	
+		<nav id="the_nav">
+			<ul>
+				<li>
+				<button>Home</button>
+				</li>
+				
+				<li>
+				<a href="HCI Website Page Two.html">
+				<button>Artists</button>
+				</a>
+				</li>
+			<ul>
+		</nav>
+	
+		<section id="the_section">
+		<p>Do you want to read information about some songs by certain artists but the Wikipedia is too long to read for you? This website will make it short and simple!</p>
+		
+		<a href="HCI Website Page Two.html">
+		<button>Get Started!</button>
+		</a>
+		</section>
+	
+		<footer id="the_footer">
+			<p>Found wrong information/s? Want to suggest more artists/song? Here are the links to my socials:</p>
+			<button>Gmail</button>
+			<button>Facebook</button>
+		</footer>
+	</div>
+	
+	<button id="btn">
+		<img src="../images/up btn.png" width="20" height="20">
+	</button>
+	
+	<script>
+		const btn = document.querySelector("#btn");
+		
+		btn.addEventListener("click", function () {
+			window.scrollTo(0, 0);
+		});
+	</script>
+</body>
+<style>
+	*{
+	margin: 0;
+	padding: 0;
+	}
+	
+	.background-image {
+		background-image: url(../images/bg.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 120vh;
+	}
+	
+	#btn{
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	background: white;
+	outline: none;
+	cursor: pointer;
+	}
+</style>
+</html>

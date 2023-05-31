@@ -1,0 +1,66 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+h2{
+	font: bold 30px Arial;
+	color: white;
+}
+
+
+header, nav, section, footer{
+	display:block;
+}
+
+body{
+	text-align:left;
+}
+
+#big_wrapper{
+	width: 95%;
+	margin: 20px auto;
+	text-align: left;
+}
+
+#the_header{
+	color: white;
+	padding: 20px;
+	text-align: center;
+	width: 100%;
+}
+
+#the_section{
+	float: left;
+	width: 500px;
+	margin: 50px;
+	font: 18px Arial;
+	color: white;
+	width: 100%;
+}
+
+#the_footer{
+	clear: both;
+	text-align: center;
+	font: bold 18px Arial;
+	color: white;
+	width: 100%;
+}
+
+#pik{
+	width: 100%;
+}
+	
+button{
+	background-color: white;
+	padding: 10px 20px;
+}
+
+img{
+	float: left;
+}
+
+#btn{
+	padding: 10px 10px;
+}
